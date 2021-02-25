@@ -66,7 +66,7 @@
           <div class="home__category">
             <div class="home__category-line" />
             <h3 class="home__category-title">
-              Подарочные упаковки
+              Упаковка
             </h3>
             <div class="home__category-line" />
           </div>
@@ -132,13 +132,13 @@
           <div class="home__modal-total">
             <span class="home__modal-info">Позиций: {{ totalCount }}</span>
             <span class="home__modal-info">Вес: {{ totalWeight }} г</span>
-            <span class="home__modal-info">Цена за подарок: {{ totalPrice }} ₽</span>
+            <span class="home__modal-info">Цена: {{ totalPrice }} ₽</span>
           </div>
-          <div class="home__modal-total">
+          <!--<div class="home__modal-total">
             <span class="home__modal-info">Подарков: {{ giftsCount }}</span>
             <span class="home__modal-info">Общий вес: {{ totalWeightFull }} г</span>
             <span class="home__modal-info">Общая цена: {{ totalPriceFull }} ₽</span>
-          </div>
+          </div>-->
         </div>
       </div>
     </modal-window>

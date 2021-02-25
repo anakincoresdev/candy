@@ -10,10 +10,10 @@
       </div>
       <template v-if="package">
         <div class="list-item__weight">
-          {{ item[2] }}
+          <!--{{ item[2] }}-->
         </div>
         <div class="list-item__weight">
-          Объем: {{ item[3] }} г
+          <!--Объем: {{ item[3] }} г-->
         </div>
         <checkbox
           :value="selected"
